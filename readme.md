@@ -27,6 +27,7 @@
 </div>
  ```
 
-* Permettez de jouer à l'infini, en retirant l'image et en générant un nouveau nombre aléatoire. 
+* Comptez le nombre de coups déjà joués et affichez-les dans la balise `.message`.
+* Permettez de jouer à l'infini, en retirant l'image, en remettant le compteur à 0 et en générant un nouveau nombre aléatoire. 
 
 ![readme](./readme.gif)
