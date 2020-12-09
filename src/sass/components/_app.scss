@@ -1,0 +1,72 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.8rem;
+  background: $background;
+  color: $color;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.app {
+  background-color: $appBackground;
+  max-width: 40rem;
+  margin: 7rem auto 0;
+  color: $color;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-radius: 0.7rem;
+  border: none;
+}
+
+#guess {
+  color: $background;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: $buttonBackground;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  border: 1px solid $appBackground;
+
+}
+
+.message {
+  font-weight: bold;
+}
+
+.message.error {
+  color: $error;
+}
+
+#guess:hover {
+  background-color:$appBackground;
+  color: $buttonBackground;
+  border-color: $buttonBackground;
+}
+
+#number {
+  width: 5rem;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  padding: 0.7rem;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  border-radius: 0.1rem;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: $background;
+  color: black;
+  border: none;
+  display: inline-block;
+}
+
+.center-img {
+  margin-top: 2rem;
+  text-align: center;
+}
