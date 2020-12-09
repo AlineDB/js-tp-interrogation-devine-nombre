@@ -23,7 +23,7 @@
 * Si l'utilisateur entre le bon nombre alors il faut mettre à jour la balise p, en retirant la classe `error`.  De plus, vous devez afficher avant la fermeture de la balise body l'image de Dolly Parton comme ceci : 
  ```html
 <div class="center-img">
-	<img src="https://media.giphy.com/media/l3cyxQvWJ4P8r3VQsb/source.gif" 		alt="Dolly Parton">
+	<img src="https://media.giphy.com/media/l3cyxQvWJ4P8r3VQsb/source.gif" alt="Dolly Parton">
 </div>
  ```
 
