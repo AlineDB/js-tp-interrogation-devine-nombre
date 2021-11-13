@@ -607,6 +607,3 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/emacs,macos,windows,vscode,jetbrains+all,sublimetext,visualstudio,yarn
-
-src/js/main.js
-dist/js/script.min.js
